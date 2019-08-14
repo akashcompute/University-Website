@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Contact Us</title>
+</head>
+<body background="rew.jpg">
+<center>
+<br>
+<h1 style="color:green;">CONTACT US</h1>
+<br><br> 
+<form>
+ <b>Occupation: </b>
+ <select name="Select">
+  <option value="stu">Student</option>
+  <option value="te">Teacher</option>
+  <option value="bu">Business</opton>
+ </select> 
+</form>
+<br>
+<b>Select option for which you have query:</b>
+ <form name="fe">
+&nbsp;&nbsp;&nbsp;<input type="radio" name="fruit" value="apples" checked><b>Admission</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="fruit" value="oranges"><b>Fee Structure</b><br>
+<input type="radio" name="fruit" value="pears"><b>Courses</b><br>
+ &nbsp;&nbsp;&nbsp;<input type="radio" name="fruit" value="peaches"><b>Feedback</b><br>
+</form>
+
+ <b>Select a photo to upload:</b> <input type="file" name="selectedfile">
+<form name="ht">
+<table width="450px">
+</tr>
+<tr>
+ <td>
+  <b>First Name *</b>
+ </td>
+ <td>
+  <input  type="text" name="fn" id="1" maxlength="50" size="30" required="required">
+ </td>
+</tr>
+ 
+<tr>
+ <td>
+  <b>Last Name *</b>
+ </td>
+ <td>
+  <input  type="text" name="ln" maxlength="50" id="2" size="30" required="required">
+ </td>
+</tr>
+<tr>
+ <td>
+<b>Email Address *</b>
+ </td>
+ <td>
+  <input  type="email" name="email" maxlength="80" size="30" id="3" required="required">
+ </td>
+ </tr>
+<tr>
+ <td>
+  <b>Telephone Number *</b>
+ </td>
+ <td>
+  <input type="number" name="telephone" maxlength="30" size="30" id="4" required="required">
+ </td>
+</tr>
+<tr>
+ <td>
+  <b>Comments</b>
+ </td>
+ <td>
+  <textarea  name="comments" maxlength="100" cols="30" rows="4"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit" onclick=sub()>  
+ </td>
+</tr>
+</table>
+</form>
+<script>
+function sub()
+{
+var x=document.forms["ht"]["fn"].value;
+var y=document.forms["ht"]["ln"].value;
+var z=document.forms["ht"]["email"].value;
+var d=document.forms["ht"]["telephone"].value;
+if(x!=0 && y!=0 && z!=0 && d!=0)
+{
+window.alert('Thank you for submitting form.We will revert back to you soon.');
+}}
+</script>
+<br><br>
+<br><br>
+<p style="color:maroon">
+<b>
+Postal Address:
+Lovely Professional University, Jalandhar - Delhi G.T. Road, Phagwara, Punjab (India) - 144411<br>
+For General/ Admission Related Enquiry:<br>
+Phone: +91-1824-404404<br>
+Toll Free: 1800 102 4431<br>
+Fax: +91-1824-506100 (Admission)<br>
+Fax: +91-1824-506111 (General)<br>
+
+Email: admissions@lpu.co.in (Admissions)<br>
+Email: int.admissions@lpu.co.in (International Admissions)<br>
+Email: info@lpu.co.in (General)<br></b>
+</p>
+</center>
+</html>
