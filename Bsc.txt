@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>BSc.</title>
+<body bgcolor="thistle">
+<center><p style="font-size:40;color:red">BSc.Chemistry</p>
+<p style="font-size:40;color:red">BSc.Biology</p>
+<p style="font-size:40;color:red">BSc.Mathematics</p>
+</center> 
+</body>
+</head>
+</html>
